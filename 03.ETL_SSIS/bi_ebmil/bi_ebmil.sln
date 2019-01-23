@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "bi_ebmil", "bi_ebmil\bi_ebmil.dtproj", "{C26C31F6-DB8A-4F72-91DA-CC53E9E65D2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C26C31F6-DB8A-4F72-91DA-CC53E9E65D2D}.Development|Default.ActiveCfg = Development
+		{C26C31F6-DB8A-4F72-91DA-CC53E9E65D2D}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24D1FB46-FD5C-4DE1-8C0D-545D5A2CA1DC}
+	EndGlobalSection
+EndGlobal
