@@ -1,0 +1,1 @@
+CREATE SCHEMA stg_ebmil AUTHORIZATION lucas_perius;
