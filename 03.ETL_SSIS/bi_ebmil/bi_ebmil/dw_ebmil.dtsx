@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="1/23/2019 8:27:28 PM"
@@ -11,9 +11,35 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionGUID="{FEE39CAB-B9A8-4BC4-B54D-FE9FB75048CD}">
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{A5F41288-FEC1-4065-AD89-95D8EF110DA3}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[PG_EBMIL32.lucas_perius@db-ebmil]"
+      DTS:CreationName="ADO.NET:System.Data.Odbc.OdbcConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{09B6C339-CD7B-42AB-B7BC-95B759833489}"
+      DTS:ObjectName="PG_EBMIL32.lucas_perius@db-ebmil">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="uid=lucas_perius@db-ebmil;Dsn=PG_EBMIL32;">
+          <DTS:Password
+            DTS:Name="pwd"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtYlDKmQ4pE2wMeaI8wi1CQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACxr2RUZIP1LEkTpNqxsIENYI2CRysZZszzyRVUSd3w0AAAAAAOgAAAAAIAACAAAACmU9RiGiHtDqB1SgOupCjzFU3jczEgnia9YxFD6C72eCAAAAAoIBYQb8Ldj14/F5ZcVREV402mYYmV75Hnx1pv2ffIFEAAAAC64h61uxNgW34K7o9bkhoLIpcisvLB3uiViAplBy8/YjcfhL59rMWmYEpG37muQXE627gf6phEYCroSOCryVD7</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+</Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
