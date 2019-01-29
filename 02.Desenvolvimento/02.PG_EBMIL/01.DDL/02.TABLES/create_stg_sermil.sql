@@ -1,26 +1,26 @@
 CREATE TABLE stg_ebmil.stg_sermil
 (
-  cod_arquivo
-, ano_nascimento
-, mun_nascimento
-, uf_nascimento
-, pais_nascimento
-, zona_residencial
-, mun_residencial
-, uf_residencial
-, pais_residencial
-, num_altura
-, num_peso
-, num_calcado
-, tam_cabeca
-, tam_cintura
-, txt_sexo
-, txt_escolaridade
-, txt_religiao
-, txt_estado_civil
-, txt_jsm
-, mun_jsm
-, uf_jsm
-, ano_vinculacao
-, txt_dispensa
-)
+  cod_arquivo		INT4
+, ano_nascimento	INT4
+, mun_nascimento	VARCHAR(50)
+, uf_nascimento		VARCHAR(2)
+, pais_nascimento	VARCHAR(20)
+, zona_residencial	VARCHAR(10)
+, mun_residencial	VARCHAR(50)
+, uf_residencial	VARCHAR(2)
+, pais_residencial	VARCHAR(20)
+, num_altura		NUMERIC(3,1)
+, num_peso			NUMERIC(3,1)
+, num_calcado		SMALLINT
+, tam_cabeca		NUMERIC(3,1)
+, tam_cintura		NUMERIC(3,1)
+, txt_sexo			VARCHAR(1)
+, txt_escolaridade	VARCHAR(35)
+, txt_religiao		VARCHAR(35)
+, txt_estado_civil	VARCHAR(20)
+, txt_jsm			VARCHAR(35)
+, mun_jsm			VARCHAR(50)
+, uf_jsm			VARCHAR(2)
+, ano_vinculacao	INT4
+, txt_dispensa		VARCHAR(15)
+);
